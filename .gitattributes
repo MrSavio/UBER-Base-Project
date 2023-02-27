@@ -100,4 +100,4 @@ Content/** lfs
 *.wem lfs
 *.chm lfs
 *.bundle lfs
-.uproject filter=lfs diff=lfs merge=lfs -text
+*.uproject filter=lfs diff=lfs merge=lfs -text
