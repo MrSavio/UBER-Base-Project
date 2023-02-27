@@ -1,19 +1,14 @@
 # .gitattributes for Unreal Engine projects with embedded Wwise projects
 # This is a work in progress, please report any issues to Quin Henshaw
-
 # Macros
 [attr]lfs filter=lfs diff=lfs merge=lfs -text
-
 # Default to auto-normalized line endings.
 * text=auto
-
 # Code
 *.cs diff=csharp text
 *.cpp diff=cpp text
-
 #Unreal Content
 Content/** lfs
-
 # Image
 *.psd lfs
 *.jpg lfs
@@ -35,7 +30,6 @@ Content/** lfs
 *.ZPR lfs
 *.ico lfs
 *.pur lfs
-
 # Audio
 *.mp3 lfs
 *.caf lfs
@@ -49,7 +43,6 @@ Content/** lfs
 *.s3m lfs
 *.xm lfs
 *.flac lfs
-
 # Video
 *.mov lfs
 *.avi lfs
@@ -57,7 +50,6 @@ Content/** lfs
 *.mpg lfs
 *.mpeg lfs
 *.mp4 lfs
-
 # 3D
 *.fbx lfs
 *.obj lfs
@@ -74,7 +66,6 @@ Content/** lfs
 *.abc lfs
 *.3dm lfs
 *.assbin lfs
-
 # Executables
 *.exe lfs
 *.dll lfs
@@ -89,7 +80,6 @@ Content/** lfs
 *.data lfs
 *.wasm lfs
 *.dylib lfs
-
 # Packaging
 *.zip lfs
 *.7z lfs
@@ -97,12 +87,10 @@ Content/** lfs
 *.rar lfs
 *.tar lfs
 *.tgz lfs
-
 # Other
 *.ttf lfs
 *.otf lfs
 *.pdf lfs
-
 # Wwise Files
 *.bnk lfs
 *.cache lfs
@@ -112,3 +100,4 @@ Content/** lfs
 *.wem lfs
 *.chm lfs
 *.bundle lfs
+.uproject filter=lfs diff=lfs merge=lfs -text
