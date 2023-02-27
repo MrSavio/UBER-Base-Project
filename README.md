@@ -1,5 +1,7 @@
 # UBER-Base-Project
-unreal engine base project with all the things I usually use
+Unreal Engine base project with all the things I usually use.
+
+Must Install Niagara UI renderer, restart editor, and auto-size comment box plugins - All other plugins should install automatically
 
 ### High Concept
 
